@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bulk Action</title>
+</head>
+<body>
+    <h1>Create Bulk Secret Links</h1>
+    <form method="post">
+        {% csrf_token %}
+        <textarea name="contents" rows="10" cols="50"></textarea><br>
+        <input type="submit" value="Generate Links">
+    </form>
+</body>
+</html>

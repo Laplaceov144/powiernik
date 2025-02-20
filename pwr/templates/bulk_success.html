@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bulk Links Created</title>
+</head>
+<body>
+    <h1>Bulk Links Generated!</h1>
+    <ul>
+        {% for link in links %}
+            <li><a href="{{ link }}">{{ link }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
